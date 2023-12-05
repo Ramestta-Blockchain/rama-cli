@@ -1,0 +1,50 @@
+{
+  "name": "@ramanetwork/rama-cli",
+  "version": "0.0.1",
+  "description": "A CLI to setup and manage Ramestta validator nodes",
+  "main": "src/index.js",
+  "bin": "bin/rama-cli",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "rama-cli"
+  ],
+  "author": "Ramestta Tech Team <info@ramestta.com> (https://ramestta.com)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^2.4.2",
+    "commander": "^5.0.0",
+    "covgen": "^3.1.0",
+    "esm": "^3.2.18",
+    "ethereumjs-util": "^6.2.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^9.0.0",
+    "ganache-cli": "^6.9.1",
+    "inquirer": "^6.2.2",
+    "listr": "^0.14.3",
+    "moonwalker": "github:atvanguard/moonwalker",
+    "nunjucks": "^3.2.1",
+    "pkg-install": "^0.2.0",
+    "truffle-privatekey-provider": "^1.3.0",
+    "web3": "^1.2.6"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
